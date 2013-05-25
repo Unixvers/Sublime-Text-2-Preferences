@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+
+public function $1($2){
+	$3 ;
+}]]></content>
+	<tabTrigger>pf</tabTrigger>
+</snippet>

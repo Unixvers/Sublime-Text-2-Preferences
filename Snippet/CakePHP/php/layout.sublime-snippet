@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$this->layout='$1';
+]]></content>
+	
+	<tabTrigger>layout</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

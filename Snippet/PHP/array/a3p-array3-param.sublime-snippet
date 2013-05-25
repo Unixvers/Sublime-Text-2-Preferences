@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+array(
+	"$1"    =>  "$2",
+	"$3"    =>  "$4",
+	"$5"    =>  "$6"
+); 
+]]></content>
+	
+	<tabTrigger>a3p</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

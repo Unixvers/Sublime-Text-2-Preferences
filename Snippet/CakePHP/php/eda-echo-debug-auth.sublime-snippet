@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<?= debug(AuthComponent::user()); ?>
+]]></content>
+	<tabTrigger>eda</tabTrigger>
+</snippet>

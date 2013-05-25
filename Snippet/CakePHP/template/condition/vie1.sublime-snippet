@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?= if($1) : ?>
+	$2 ;
+<?= else if($3) : ?>
+	$4 ;
+<?= else : ?>
+	$5;
+<?= endif  ?>
+]]></content>
+	
+	<tabTrigger>vie1</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

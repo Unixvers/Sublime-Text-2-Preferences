@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<?= for(\$i = 0; \$1 < $1.lenght; \$i++) : ?>
+	$2 ;
+<?= endfor ?>
+]]></content>
+	
+	<tabTrigger>vbf</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

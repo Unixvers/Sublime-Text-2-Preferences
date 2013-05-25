@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[ 
+// fonction qui autorise les vues
+public function beforeFilter(){
+    parent::beforeFilter();
+    \$this->Auth->allow('index','admin_index','admin_edit','admin_delete');
+}
+
+	]]>
+	</content>
+
+	<tabTrigger>abf</tabTrigger>
+    <scope>source.php</scope>
+
+</snippet>

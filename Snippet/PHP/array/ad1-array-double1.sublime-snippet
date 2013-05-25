@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+array(array("$1")); 
+]]></content>
+	
+	<tabTrigger>ad1</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

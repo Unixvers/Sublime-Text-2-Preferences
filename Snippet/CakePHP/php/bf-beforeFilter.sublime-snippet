@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[ 
+// fonction qui autorise les vues
+public function beforeFilter(){
+    parent::beforeFilter();
+    \$this->Auth->allow('index');
+}
+
+	]]>
+	</content>
+
+	<tabTrigger>bf</tabTrigger>
+    <scope>source.php</scope>
+
+</snippet>

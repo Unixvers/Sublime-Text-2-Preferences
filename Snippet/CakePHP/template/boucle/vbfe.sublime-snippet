@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<?= foreach($1 as \$k => \$v) : ?>
+	 <p> $2 - \$k[\$v] </p>
+<?= endforeach  ?>
+]]></content>
+	
+	<tabTrigger>vbfe</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

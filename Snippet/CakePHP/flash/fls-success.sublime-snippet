@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$this->Session->setFlash("$1","flash",array("class" => "success");
+]]></content>
+	<tabTrigger>fls</tabTrigger> 
+</snippet>

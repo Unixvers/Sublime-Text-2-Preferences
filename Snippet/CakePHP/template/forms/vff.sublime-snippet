@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?= \$this->Form->create('$1', array('type' => 'file')); ?>
+    <?= \$this->Form->input('$2', array('type' => 'file', 'label' => '$3')); ?>
+<?= \$this->Form->end('Enregistrer'); ?>
+]]></content>
+	<tabTrigger>vff</tabTrigger>
+</snippet>

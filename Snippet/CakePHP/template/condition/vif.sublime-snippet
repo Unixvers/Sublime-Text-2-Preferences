@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<?= if($1) : ?>
+	$2 
+<?= endif  ?>
+]]></content>
+	
+	<tabTrigger>vif</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

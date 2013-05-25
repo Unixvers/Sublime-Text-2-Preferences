@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<?= if($1) : ?>
+	$2 ;
+<?= else : ?>
+	$3 ;
+<?= endif ?>
+]]></content>
+	
+	<tabTrigger>vie</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+while($1)
+{
+	$2 ;
+}
+]]></content>
+	
+	<tabTrigger>bw</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

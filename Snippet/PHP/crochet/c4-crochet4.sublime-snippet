@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$$1["$2"]["$3"]["$4"]["$5"] ;  
+]]></content>
+	
+	<tabTrigger>c4</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

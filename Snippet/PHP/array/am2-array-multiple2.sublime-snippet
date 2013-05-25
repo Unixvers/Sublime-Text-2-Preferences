@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+array(
+	"$1" => array(
+	   	"$2" => "$3",
+	   	"$4" => "$5"
+		)
+); 
+]]></content>
+	
+	<tabTrigger>am2</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

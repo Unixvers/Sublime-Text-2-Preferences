@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if($1)
+{
+	$2 ;
+}
+]]></content>
+	
+	<tabTrigger>si</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

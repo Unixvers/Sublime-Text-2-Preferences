@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+array(
+	"$1"    =>  "$2",
+	"$3"    =>  "$4"
+); 
+]]></content>
+	
+	<tabTrigger>a2p</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

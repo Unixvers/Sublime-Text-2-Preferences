@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[<?php
+
+App::uses('AppController','Controller');
+
+class $1Controller extends AppController{
+
+	public function index(){
+		$2 ;
+	}
+
+}]]></content>
+	<tabTrigger>cc</tabTrigger>
+</snippet>
