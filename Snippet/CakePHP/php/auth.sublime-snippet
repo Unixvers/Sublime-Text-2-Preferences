@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[ \$this->Auth->user("${1:id}");]]></content>
+	<content><![CDATA[ \$this->Auth->user("${1:id}");$2]]></content>
 
 	<tabTrigger>auth</tabTrigger>
     <scope>source.php</scope>

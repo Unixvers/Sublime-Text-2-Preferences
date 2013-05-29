@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<?php while($1) : ?>
+	 $2 
+<?php endwhile  ?>
+$3
+]]></content>
+	
+	<tabTrigger>vw</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+array( "$1", "$2", "$3", "$4", "$5", "$6", "$7", "$8") $9
+]]></content>
+	
+	<tabTrigger>a8</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

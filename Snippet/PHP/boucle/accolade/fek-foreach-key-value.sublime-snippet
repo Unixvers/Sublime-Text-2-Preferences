@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+foreach($1 as $k => $v) 
+{
+	$2 
+}
+$3
+]]></content>
+	
+	<tabTrigger>+fek</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

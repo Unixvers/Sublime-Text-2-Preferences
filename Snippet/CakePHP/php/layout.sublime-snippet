@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->layout='$1';
+\$this->layout='$1'; $2
 ]]></content>
 	
 	<tabTrigger>layout</tabTrigger>

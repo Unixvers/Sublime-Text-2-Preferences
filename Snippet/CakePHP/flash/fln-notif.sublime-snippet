@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("$1","flash",array("class" => "notif");
+\$this->Session->setFlash("$1","flash",array("class" => "notif"); $2
 ]]></content>
 	<tabTrigger>fln</tabTrigger> 
 </snippet>

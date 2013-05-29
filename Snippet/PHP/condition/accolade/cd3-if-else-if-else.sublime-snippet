@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+if($1) 
+{
+	$2 
+}
+else if($3) 
+{
+	$4 
+}
+else 
+{
+	$5
+}
+$6
+]]></content>
+	
+	<tabTrigger>+cd3</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<?= debug(\$this->request->data); ?>
-]]></content>
-	<tabTrigger>edd</tabTrigger>
-</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<?php endif ?>
+	$1
+]]></content>
+	
+	<tabTrigger>vei</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$$1["$2"]["$3"] ; 
+\$$1["$2"]["$3"] $4 
 ]]></content>
 	
 	<tabTrigger>c2</tabTrigger>

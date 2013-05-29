@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@include "$1";
+$2
+]]></content>
+	<tabTrigger>in</tabTrigger>
+	<scope>source.scss</scope>
+</snippet>

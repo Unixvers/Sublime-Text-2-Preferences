@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-debug(\$this->request->data);
+debug(\$this->request->data); $1
 ]]></content>
 	<tabTrigger>dd</tabTrigger>
 </snippet>

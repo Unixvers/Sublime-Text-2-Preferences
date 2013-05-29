@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<?= \$this->Form->create('$1', array('type' => 'file')); ?>
+    <?= \$this->Form->input('$2', array('type' => 'file', 'label' => '$3')); ?>
+	<?= \$this->Form->input('$4', 'label' => '$5')); ?>
+	<?= \$this->Form->input('$6', 'label' => '$7')); ?>
+	<?= \$this->Form->input('$8', 'label' => '$9')); ?>
+	<?= \$this->Form->input('$10', 'label' => '$11')); ?>
+	<?= \$this->Form->input('$12', 'label' => '$13')); ?>
+	<?= \$this->Form->input('$14', 'label' => '$15')); ?>
+	<?= \$this->Form->input('$16', 'label' => '$17')); ?>
+	<?= \$this->Form->input('$18', 'label' => '$19')); ?>
+	<?= \$this->Form->input('$20', 'label' => '$21')); ?>
+<?= \$this->Form->end($22); ?>
+$23
+]]></content>
+	<tabTrigger>vff10</tabTrigger>
+</snippet>

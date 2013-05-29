@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("$1","flash",array("class" => "inverse");
+\$this->Session->setFlash("$1","flash",array("class" => "inverse"); $2
 ]]></content>
 	<tabTrigger>flinv</tabTrigger> 
 </snippet>

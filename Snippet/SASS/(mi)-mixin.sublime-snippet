@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/* la mixin ${1:Name} sert à $4 */
+@mixin ${1:Name}($2) {
+	 $3
+}
+$5
+]]></content>
+	<tabTrigger>mi</tabTrigger>
+	<scope>source.scss</scope>
+</snippet>

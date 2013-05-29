@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+else 
+{
+	$1
+}
+$2
+]]></content>
+	
+	<tabTrigger>+cde</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

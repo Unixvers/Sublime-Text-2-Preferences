@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
 <?= \$this->Form->input('$1',array('label'=>"$2")); ?>
+$3
 ]]></content>
 	<tabTrigger>vfi</tabTrigger>
 </snippet>

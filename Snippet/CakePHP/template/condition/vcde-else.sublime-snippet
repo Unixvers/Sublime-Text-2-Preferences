@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<?php else : ?>
+	$1
+]]></content>
+	
+	<tabTrigger>vcde</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<?php foreach($1 as \$k => \$v) : ?>
+	 $2 
+<?php endforeach  ?>
+$3
+]]></content>
+	
+	<tabTrigger>vfe</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>

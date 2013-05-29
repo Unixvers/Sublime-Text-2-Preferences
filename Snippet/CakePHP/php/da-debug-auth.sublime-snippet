@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-debug(\$this->Auth->user());
+debug(\$this->Auth->user());$1
 ]]></content>
 	<tabTrigger>da</tabTrigger>
 </snippet>

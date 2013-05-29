@@ -4,7 +4,8 @@
     <?= \$this->Form->input('$2', 'label' => '$3')); ?>
 	<?= \$this->Form->input('$4', 'label' => '$5')); ?>
 	<?= \$this->Form->input('$6', 'label' => '$7')); ?>
-<?= \$this->Form->end('Enregistrer'); ?>
+<?= \$this->Form->end($8); ?>
+$9
 ]]></content>
 	<tabTrigger>vf3</tabTrigger>
 </snippet>

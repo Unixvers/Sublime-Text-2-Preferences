@@ -4,7 +4,8 @@
     <?= \$this->Form->input('$2', array('type' => 'file', 'label' => '$3')); ?>
 	<?= \$this->Form->input('$4', 'label' => '$5')); ?>
 	<?= \$this->Form->input('$6', 'label' => '$7')); ?>
-<?= \$this->Form->end('Enregistrer'); ?>
+<?= \$this->Form->end($8); ?>
+$9
 ]]></content>
 	<tabTrigger>vff3</tabTrigger>
 </snippet>

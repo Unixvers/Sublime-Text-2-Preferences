@@ -3,7 +3,8 @@
 <?= \$this->Form->create('$1'); ?>
     <?= \$this->Form->input('$2', 'label' => '$3')); ?>
 	<?= \$this->Form->input('$4', 'label' => '$5')); ?>
-<?= \$this->Form->end('Enregistrer'); ?>
+<?= \$this->Form->end($6); ?>
+$7
 ]]></content>
 	<tabTrigger>vf2</tabTrigger>
 </snippet>

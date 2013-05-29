@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<?= \$this->Form->create('$1'); ?>
+    <?= \$this->Form->input('$2', 'label' => '$3')); ?>
+	<?= \$this->Form->input('$4', 'label' => '$5')); ?>
+	<?= \$this->Form->input('$6', 'label' => '$7')); ?>
+	<?= \$this->Form->input('$8', 'label' => '$9')); ?>
+	<?= \$this->Form->input('$10', 'label' => '$11')); ?>
+	<?= \$this->Form->input('$12', 'label' => '$13')); ?>
+<?= \$this->Form->end($14); ?>
+$15
+]]></content>
+	<tabTrigger>vf6</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$this->Session->setFlash("Problème rencontré : vous ne pouvez pas modifer les données.","flash",array("class" => "error"); $1
+]]></content>
+	<tabTrigger>fleu</tabTrigger> 
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/* la fonction ${1:Name} sert à $4 */
+@function ${1:Name}($2) {
+	@return $3;
+}
+$5
+]]></content>
+	<tabTrigger>fu</tabTrigger>
+	<scope>source.scss</scope>
+</snippet>

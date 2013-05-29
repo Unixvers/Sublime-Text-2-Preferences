@@ -1,12 +1,9 @@
 <snippet>
 	<content><![CDATA[<?php
+App::uses('AppModel', 'Model');
 
 class $1 extends AppModel{
 	
-	public function beforeFilter(){
-		parent::beforeFilter();
-		$2 ;
-	}
 
 }
 ]]></content>

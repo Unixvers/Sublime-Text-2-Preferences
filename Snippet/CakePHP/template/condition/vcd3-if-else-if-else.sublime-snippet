@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php if($1) : ?>
+	$2 
+<?php else if($3) : ?>
+	$4
+<?php else : ?>
+	$5
+<?php endif  ?>
+$6
+]]></content>
+	
+	<tabTrigger>vcd3</tabTrigger>
+
+	<!-- <scope>source.python</scope> -->
+</snippet>
