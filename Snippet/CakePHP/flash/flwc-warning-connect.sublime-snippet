@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Attention : les champs utilisateur et mot de passe sont requis avant d'être valider, merci de bien vouloir les renseigner.","flash",array("class" => "warning"); $1
+\$this->Session->setFlash("Attention : les champs utilisateur et mot de passe sont requis avant d'être valider, merci de bien vouloir les renseigner.","flash",array("class" => "warning")); $1
 ]]></content>
 	<tabTrigger>flwc</tabTrigger> 
 </snippet>

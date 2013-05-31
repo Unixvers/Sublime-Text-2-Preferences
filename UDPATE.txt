@@ -1,0 +1,6 @@
+Correction des erreurs : 
+
+	Ajout de la parenthèse manquante de fin à tous messages flash
+	Correction du $1 au lieu de $i dans la boucle foreach de la vue
+	Correction du $1 au lieu de $i dans la boucle for PHP pour les fichiers de base et ceux des types A et B du accolade.zip 
+	retrait du préfix admin sur le link de la vue

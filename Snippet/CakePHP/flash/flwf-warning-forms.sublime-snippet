@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Attention : certaine information du formulaire sont requises afin d'être valider, merci de bien vouloir les renseigner.","flash",array("class" => "warning"); $1
+\$this->Session->setFlash("Attention : certaine information du formulaire sont requises afin d'être valider, merci de bien vouloir les renseigner.","flash",array("class" => "warning")); $1
 ]]></content>
 	<tabTrigger>flwf</tabTrigger> 
 </snippet>
