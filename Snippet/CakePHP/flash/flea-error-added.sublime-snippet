@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Problème rencontré : les données transmises sont incorrectes , merci de bien vouloir les vérifier.","flash",array("class" => "error")); $1
+\$this->Session->setFlash("Problème rencontré : les données transmises sont incorrectes , merci de bien vouloir les vérifier.","flash",array("class" => "error"); $1
 ]]></content>
 	<tabTrigger>flea</tabTrigger> 
 </snippet>

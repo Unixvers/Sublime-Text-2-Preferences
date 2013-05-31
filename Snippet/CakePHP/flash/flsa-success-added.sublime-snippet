@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Félicitation : votre nouvel enregistrement à bien été pris en compte.","flash",array("class" => "success")); $1
+\$this->Session->setFlash("Félicitation : votre nouvel enregistrement à bien été pris en compte.","flash",array("class" => "success"); $1
 ]]></content>
 	<tabTrigger>flsa</tabTrigger> 
 </snippet>

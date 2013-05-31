@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Félicitation : les données soumises ont bien été validé et votre enregistrement à bien été modifié.","flash",array("class" => "success")); $1
+\$this->Session->setFlash("Félicitation : les données soumises ont bien été validé et votre enregistrement à bien été modifié.","flash",array("class" => "success"); $1
 ]]></content>
 	<tabTrigger>flsu</tabTrigger> 
 </snippet>

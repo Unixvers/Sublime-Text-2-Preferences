@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<?= \$this->Html->link("$1",array('controller'=>'$2','action'=>'$3')); ?>
-$4
+<?= \$this->Html->link("$1",array('controller'=>'$2','action'=>'$3','admin' => $4)); ?>
+$5
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>vl</tabTrigger>

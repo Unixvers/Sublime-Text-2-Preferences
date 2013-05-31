@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Attention : vous allez supprimer les données. Voulez-vous vraiment effectuer cette action ?","flash",array("class" => "warning")); $1
+\$this->Session->setFlash("Attention : vous allez supprimer les données. Voulez-vous vraiment effectuer cette action ?","flash",array("class" => "warning"); $1
 ]]></content>
 	<tabTrigger>flwd</tabTrigger> 
 </snippet>
