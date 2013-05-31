@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Problème rencontré : certaine information du formulaire sont incorrectes, merci de bien vouloir les vérifier.","flash",array("class" => "error"); $1
+\$this->Session->setFlash("Problème rencontré : certaine information du formulaire sont incorrectes, merci de bien vouloir les vérifier.","flash",array("class" => "error")); $1
 ]]></content>
 	<tabTrigger>flef</tabTrigger> 
 </snippet>

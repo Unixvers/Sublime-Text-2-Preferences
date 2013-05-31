@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->Session->setFlash("Félicitation : la suppression des données à bien été prise en compte.","flash",array("class" => "success"); $1
+\$this->Session->setFlash("Félicitation : la suppression des données à bien été prise en compte.","flash",array("class" => "success")); $1
 ]]></content>
 	<tabTrigger>flsd</tabTrigger> 
 </snippet>
