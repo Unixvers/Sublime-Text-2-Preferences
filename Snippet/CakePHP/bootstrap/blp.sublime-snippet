@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+CakePlugin::load('TwitterBootstrap');
+$3
+]]></content>
+    <tabTrigger>blp</tabTrigger>
+</snippet>

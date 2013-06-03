@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<?php echo \$this->Form->input('$1', array(
+    'label' => '$2',
+    'type' => 'checkbox',
+    'multiple' => 'inline',
+    'options' => array('$3', '$4', '$5'),
+    'class' => 'span1',
+    'helpBlock' => '$6',
+)); ?>
+$7
+]]></content>
+	<tabTrigger>bfic</tabTrigger>
+</snippet>

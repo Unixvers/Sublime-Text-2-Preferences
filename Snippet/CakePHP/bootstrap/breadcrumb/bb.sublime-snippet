@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<?php echo \$this->Html->breadcrumb(array(
+    \$this->Html->link('$1', '/$2'),
+    \$this->Html->link('$3', '/$4'),
+    '$5',
+)); ?>
+$6
+]]></content>
+	<tabTrigger>bb</tabTrigger>
+</snippet>

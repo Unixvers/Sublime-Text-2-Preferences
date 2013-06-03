@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<?php echo \$this->Form->input('$1', array(
+    'label' => '$2',
+    'type' => 'text',
+    'class' => 'span$3',
+    'append' => array('$4', array('wrap' => 'button', 'class' => 'btn')),
+)); ?>
+$5
+]]></content>
+	<tabTrigger>bfitab</tabTrigger>
+</snippet>

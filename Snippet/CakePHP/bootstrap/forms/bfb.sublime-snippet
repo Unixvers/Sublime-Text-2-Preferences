@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-actions">
+    <?php echo \$this->Form->submit('Enregistrer', array(
+        'div' => false,
+        'class' => 'btn btn-$1',
+    )); ?>
+    <button class="btn">Annuler</button>
+</div>
+$2
+]]></content>
+	<tabTrigger>bfb</tabTrigger>
+</snippet>

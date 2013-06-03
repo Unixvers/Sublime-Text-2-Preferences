@@ -1,3 +1,82 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Version 3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ajout des snippets pour le Plugin TwitterBootstrap sur CakePhp
+
+avant d'utiliser les snippets vous devez télécharger le plugin sur Github ( Licence MIT )
+Lien du Github : https://github.com/slywalker/TwitterBootstrap
+Après avoir placer le plugin dans le dossier de votre app
+
+2 snippets pourront être utilisés : 
+	dans le fichier bootstrap.php le snippet "blp" fait un CakePlugin::load('TwitterBootstrap');
+	et dans le AppController ou autre controlleur au niveau de la variable $helpers un autre
+	snippet peut être utile c'est "bh" qui va produire : 
+		'Html' => array('className' => 'TwitterBootstrap.BootstrapHtml'),
+        'Form' => array('className' => 'TwitterBootstrap.BootstrapForm'),
+        'Paginator' => array('className' => 'TwitterBootstrap.BootstrapPaginator'),
+		
+Les snippets cité ci-dessus son dans le dossier /CakePHP/bootstrap
+
+On peut déjà remarquer qu'il sont tous préfixé par "b" pour bootstrap chaque nom de fichier et le snippet a taper
+
+Voici la liste des dossiers et leur snippet ranger avec leur descriptif ( je mais pas le code produit mais il est identique à la doc avec 2 ou 3 ajouts supplémentaire )
+
+Dossier CakePHP/bootstrap/
+
+bh.sublime-snippet				=> bh pour bootstrap helpers
+blp.sublime-snippet				=> blp pour bootstrap load plugin
+breadcrumb/
+|---> bb.sublime-snippet		=> bb pour bootstrap breadcrumb
+forms/
+|---> bfex.sublime-snippet		=> bfex pour bootstrap form exemple (crée le formulaire de la doc)
+|---> bfh.sublime-snippet		=> bfh pour bootstrap form horizontal (crée la structure complète pour un formulaire horizontal avec les bouttons)
+|---> bfv.sublime-snippet		=> bfv pour bootstrap form vertical (crée la structure complète pour un formulaire vertical avec les bouttons)
+|---> bfb.sublime-snippet		=> bfb pour bootstrap form button (crée les boutons de formulaire)
+|---> bfic.sublime-snippet		=> bfic pour bootstrap form input checkbox (crée un champ input de type checkbox)
+|---> bfici.sublime-snippet		=> bfici pour bootstrap form input checkbox inline (crée un champ input de type checkbox sur une ligne)
+|---> bfir.sublime-snippet		=> bfir pour bootstrap form input radio button (crée un champ input de type radio button)
+|---> bfis.sublime-snippet		=> bfis pour bootstrap form input select (crée un champ input de type select)
+|---> bfism.sublime-snippet		=> bfism pour bootstrap form input select multiple (crée un champ input de type select multiple)
+|---> bfit.sublime-snippet		=> bfit pour bootstrap form input text(crée un champ input de type text)
+|---> bfita.sublime-snippet		=> bfita pour bootstrap form input text avec append
+|---> bfitab.sublime-snippet	=> bfitab pour bootstrap form input text avec append et button 
+|---> bfitap.sublime-snippet	=> bfitap pour bootstrap form input text avec append et prepend
+|---> bfitp.sublime-snippet		=> bfitp pour bootstrap form input text avec prepend
+paginate/
+|---> bpager.sublime-snippet	=> bpager pour bootstrap paginator pager
+|---> bpagin.sublime-snippet	=> bpagin pour bootstrap paginator pagination
+
+Utilisation rapide : 
+	
+	faire soit bfh ou bfv 
+	ensuite bfi(x) ou bfit(x) pour chaque champ désiré
+	et c'est fini
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Version 2
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Correction des erreurs : 
+
+	Ajout de la parenthèse manquante de fin à tous messages flash
+	Correction du $1 au lieu de $i dans la boucle foreach de la vue
+	Correction du $1 au lieu de $i dans la boucle for PHP pour les fichiers de base et ceux des types A et B du accolade.zip 
+	retrait du préfix admin sur le link de la vue
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Version 1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Mise à jour et correction de petit défaut+ ajout de nouveau snippets
 
 pour les petits défaut : 

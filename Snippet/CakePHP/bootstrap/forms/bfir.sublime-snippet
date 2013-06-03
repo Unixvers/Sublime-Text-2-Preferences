@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php echo \$this->Form->input('$1', array(
+    'label' => '$2',
+    'type' => 'radio',
+    'options' => array(
+        '1' => '$3',
+        '2' => '$4',
+    ),
+    'class' => 'span$5',
+    'helpBlock' => '$6',
+)); ?>
+$7
+]]></content>
+	<tabTrigger>bfir</tabTrigger>
+</snippet>

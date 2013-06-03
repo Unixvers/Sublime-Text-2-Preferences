@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?php echo \$this->Paginator->pagination(); ?>
+$1
+]]></content>
+	<tabTrigger>bpagin</tabTrigger>
+</snippet>

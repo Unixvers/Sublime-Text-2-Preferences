@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<?php echo \$this->Form->input('$1', array(
+    'label' => '$2',
+    'type' => 'select',
+    'multiple' => 'inline',
+    'options' => array('$3', '$4', '$5'),
+    'class' => 'span$6',
+    'helpBlock' => '$7',
+)); ?>
+$8
+]]></content>
+	<tabTrigger>bfis</tabTrigger>
+</snippet>

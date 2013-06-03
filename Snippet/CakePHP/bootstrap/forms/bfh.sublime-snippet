@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<?php echo \$this->Form->create('$1', array('class' => 'form-horizontal')); ?>
+    <fieldset>
+        <legend>$2</legend>
+		
+		$5
+
+        <div class="form-actions">
+            <?php echo \$this->Form->submit('Enregistrer', array(
+                'div' => false,
+                'class' => 'btn btn-primary',
+            )); ?>
+            <button class="btn">Annuler</button>
+        </div>
+    </fieldset>
+<?php echo \$this->Form->end(); ?>
+$3
+]]></content>
+	<tabTrigger>bfh</tabTrigger>
+</snippet>
